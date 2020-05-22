@@ -25,7 +25,8 @@ database generated and where your site html data is stored
 ### Running query scripts
 1. clone the repository in an empty directory
 2. run `cd implementation_indexing/` to make  `implementation_indexing/` your working directory
-3. Project can be run in two modes:
+3. check that `DB_PATH` and `DATA_PATH`  in `implementation_indexing/configs.py` point to your idnex database and html source directory
+4. Project can be run in two modes:
       * Search with inverted index:
           * run `python run_sqlite_search.py "word1 word2 ..."` where  `"word1 word2 ..."` is a parameter with any number
           wods you wish to querry against. This parameter must be present and should contain at least one word
