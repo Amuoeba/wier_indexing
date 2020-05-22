@@ -27,7 +27,7 @@ database generated and where your site html data is stored
 2. run `cd implementation_indexing/` to make  `implementation_indexing/` your working directory
 3. Project can be run in two modes:
       * Search with inverted index:
-          * run `python run_sqlite_seqrch.py "word1 word2 ..."` where  `"word1 word2 ..."` is a parameter with any number
+          * run `python run_sqlite_search.py "word1 word2 ..."` where  `"word1 word2 ..."` is a parameter with any number
           wods you wish to querry against. This parameter must be present and should contain at least one word
       * Search with basic incremental search:
           * run `python run_basic_search.py "word1 word2 ..."` where  `"word1 word2 ..."` is a parameter with any number
@@ -37,7 +37,7 @@ database generated and where your site html data is stored
 ### Inverted index search
 Query string: šola
 ```
-python run_sqlite_seqrch.py "šola"
+python run_sqlite_search.py "šola"
 Querring for:['šola']
 Found 7 documents in 0.0015423297882080078s
 Frequency      Document name                                     Snipet 0                                                    Snipet 1                                                    Snipet 2                                                    Snipet 3                                                    Snipet 4                                                    
