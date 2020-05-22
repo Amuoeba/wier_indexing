@@ -12,6 +12,17 @@ incrementaly. For this reason we also implemented a simple incremental query sea
 * sqlite                    3.31.1
 
 ## How to run the project
+Theproject comes with already generated inverted index sqlite database located in project root: `/index_database.db`.
+If you just wish to run the queryies skip section below and continue with "Running query scripts". If you wish to generate your own inverted index see section below
+### Generating index
+1. clone the repository in an empty directory
+2. run `cd implementation_indexing/` to make  `implementation_indexing/` your working directory
+3. change variables `DB_PATH` and `DATA_PATH`  in `implementation_indexing/configs.py` to point to where you want your 
+database generated and where your site html data is stored
+4. run `python create_index.py` and the inverted index database will be generated at your specified path
+
+
+### Running query scripts
 1. clone the repository in an empty directory
 2. run `cd implementation_indexing/` to make  `implementation_indexing/` your working directory
 3. Project can be run in two modes:
