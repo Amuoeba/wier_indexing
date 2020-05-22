@@ -80,7 +80,7 @@ class IndexDB:
         return self
 
 
-index_database = IndexDB(configs.DB_PAATH)
+index_database = IndexDB(configs.DB_PATH)
 
 if __name__ == "__main__":
     index_database.reset_databse()

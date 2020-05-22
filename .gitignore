@@ -2,3 +2,4 @@
 site_data/
 notebooks/.ipynb_checkpoints
 implementation_indexing/__pycache__/
+index_database2.db

@@ -1,5 +1,5 @@
 # Imports from external libraries
 
 # Imports from internal libraries
-DB_PAATH = "../index_database.db"
+DB_PATH = "../index_database2.db"
 DATA_PATH = "../site_data"
